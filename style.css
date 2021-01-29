@@ -1,0 +1,200 @@
+body{
+    text-align: center;
+    background-color: rgb(61, 45, 47);
+}
+h1{
+    margin-top:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 462.5%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    color: #ccc; ;
+    
+}
+h2{
+    height:80px;
+	font-size: 50px;
+	color: #ccc; ;
+}
+.top-container{
+    background-color: rgb(0,0, 53, 0);
+    background-blend-mode: color-burn;
+    background-size: cover;
+    margin: 0;
+    height:200px;
+
+
+    
+}
+h3{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #ccc;
+}
+
+.myphoto{
+    height:300px;
+    width:300px;
+    
+}
+.skilling-hover{
+    height:200px;
+    width:200px;
+}
+.p{
+    text-size-adjust: 30px;
+}
+
+.top-cloud{
+    height:10px;
+}
+.contact-me{
+    background-color:blue;
+    background-blend-mode: soft-light;
+    text-align:left;
+    padding-left: 60px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+.nav{
+	text-emphasis-color: white;
+	background-color: pink;
+	text-size-adjust: 40%;
+	text-decoration: dotted;
+}
+.navbar{
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	padding:25px 0;
+}
+.navbar .logo{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 750;
+	letter-spacing: 2px;
+	background: url('PHOTO1.jpeg');
+}
+.butt{
+	background-color: yellow;
+	text-align: center;
+	padding-left: 50%;
+	padding-right: 50%;
+}
+.navbar ul.nav{
+	margin-right: 15%;
+}
+.navbar ul.nav li.active,
+.navbar ul.nav li:hover{
+	background:rgba(255, 255, 255, 0.5);
+	color: #000;
+
+}
+.navbar ul.nav li a{
+	color: #fff;
+	font-size: 1em;
+	font-weight: 500;
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a{
+	color: #000;
+}
+
+/*slider*/
+#carouselExampleIndicators{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+#carouselExampleIndicators .carousel-inner{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #000;
+}
+#carouselExampleIndicators .carousel-inner:before{
+	position: absolute;
+	content: '';
+	background: rgba(0, 0, 0, 0.45);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item{
+	position: relative;
+	height: 100%;
+	width:100%;
+	background: url('nam.jpeg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+	background: url('PHOTO2.jpeg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+	background: url('nam2.jpeg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .info{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: auto;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item h1{
+	height: auto;
+	color: #fff;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 5.5em;
+	font-weight: 750;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item p{
+	height: auto;
+	color: #ccc;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+.skilling  {
+	height: 30%;
+	width: 30%;
+	border-radius: 40%;
+	
+   }
+   .BESTIE{
+	   background: url('nam2.jpeg');
+	   background-repeat: no-repeat;
+	   background-size: 100%;
+   }
+   .butt{
+	   text-align: center;
+	   background-attachment: fixed;
+	   background-color: yellow;
+   }
+   .last{
+	   size: 100%;
+	   border-top-right-radius: 30%;
+	   border-bottom-left-radius: 30%;
+   }
